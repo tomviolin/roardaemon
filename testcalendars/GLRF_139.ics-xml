@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r25:space_reservations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns:xl="http://www.w3.org/1999/xlink"
+                        xmlns:r25="http://www.collegenet.com/r25"
+                        pubdate="2020-09-23T11:25:57-05:00"
+                        engine="accl">
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749616">
+      <r25:reservation_id>7749616</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-10T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-10T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-10T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-10T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-10T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-10T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749617">
+      <r25:reservation_id>7749617</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-11T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-11T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-11T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-11T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-11T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-11T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749618">
+      <r25:reservation_id>7749618</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-12T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-12T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-12T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-12T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-12T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-12T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749619">
+      <r25:reservation_id>7749619</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-13T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-13T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-13T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-13T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-13T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-13T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749620">
+      <r25:reservation_id>7749620</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-14T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-14T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-14T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-14T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-14T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-14T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749621">
+      <r25:reservation_id>7749621</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-15T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-15T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-15T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-15T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-15T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-15T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749622">
+      <r25:reservation_id>7749622</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-16T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-16T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-16T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-16T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-16T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-16T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749623">
+      <r25:reservation_id>7749623</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-17T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-17T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-17T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-17T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-17T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-17T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749624">
+      <r25:reservation_id>7749624</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-18T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-18T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-18T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-18T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-18T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-18T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749625">
+      <r25:reservation_id>7749625</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-19T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-19T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-19T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-19T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-19T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-19T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749626">
+      <r25:reservation_id>7749626</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-20T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-20T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-20T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-20T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-20T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-20T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749627">
+      <r25:reservation_id>7749627</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-21T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-21T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-21T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-21T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-21T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-21T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749628">
+      <r25:reservation_id>7749628</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-22T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-22T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-22T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-22T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-22T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-22T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+   <r25:space_reservation xl:href="reservation.xml?rsrv_id=7749629">
+      <r25:reservation_id>7749629</r25:reservation_id>
+      <r25:reservation_type>1</r25:reservation_type>
+      <r25:reservation_start_dt>2020-08-23T07:00:00-05:00</r25:reservation_start_dt>
+      <r25:reservation_end_dt>2020-08-23T23:00:00-05:00</r25:reservation_end_dt>
+      <r25:act_head_count/>
+      <r25:shared>F</r25:shared>
+      <r25:reservation_state>1</r25:reservation_state>
+      <r25:spaces xl:href="space.xml?space_id=424">
+         <r25:space_id>424</r25:space_id>
+         <r25:space_name>GLRF 139</r25:space_name>
+         <r25:formal_name>Great Lakes Research Facility 139</r25:formal_name>
+         <r25:space_favorite>T</r25:space_favorite>
+         <r25:related_space_id/>
+         <r25:related_space_name/>
+         <r25:partition_id>13</r25:partition_id>
+         <r25:partition_name>GLRF</r25:partition_name>
+         <r25:default_layout_id/>
+         <r25:default_layout_name/>
+      </r25:spaces>
+      <r25:layout_id/>
+      <r25:layout_name/>
+      <r25:default_layout_capacity>30</r25:default_layout_capacity>
+      <r25:selected_layout_capacity>30</r25:selected_layout_capacity>
+      <r25:space_instruction_id/>
+      <r25:space_instructions/>
+      <r25:registration_url/>
+      <r25:event xl:href="event.xml?event_id=209326">
+         <r25:event_id>209326</r25:event_id>
+         <r25:event_locator>2020-ABBPQX</r25:event_locator>
+         <r25:event_name>Hold for DNC</r25:event_name>
+         <r25:event_title/>
+         <r25:event_type_id>120</r25:event_type_id>
+         <r25:event_type_name>Meeting</r25:event_type_name>
+         <r25:event_type_class/>
+         <r25:state>2</r25:state>
+         <r25:state_name>Confirmed</r25:state_name>
+         <r25:event_description/>
+         <r25:organization_id xl:href="organization.xml?organization_id=45">45</r25:organization_id>
+         <r25:organization_name>School of Freshwater Sciences (SFS)</r25:organization_name>
+         <r25:pre_event_dt>2020-08-23T07:00:00-05:00</r25:pre_event_dt>
+         <r25:event_start_dt>2020-08-23T07:00:00-05:00</r25:event_start_dt>
+         <r25:event_end_dt>2020-08-23T23:00:00-05:00</r25:event_end_dt>
+         <r25:post_event_dt>2020-08-23T23:00:00-05:00</r25:post_event_dt>
+         <r25:profile_id>874845</r25:profile_id>
+         <r25:profile_name>Rsrv_874845</r25:profile_name>
+         <r25:expected_count>1</r25:expected_count>
+         <r25:registered_count/>
+         <r25:requestor_id xl:href="contact.xml?contact_id=4086">4086</r25:requestor_id>
+         <r25:requestor_name>Mallory Kaul</r25:requestor_name>
+         <r25:requestor_address/>
+         <r25:requestor_email>malkaul@uwm.edu</r25:requestor_email>
+         <r25:requestor_phone>(414) 382-1778</r25:requestor_phone>
+         <r25:requestor_fax/>
+         <r25:scheduler_id xl:href="contact.xml?contact_id=2914">2914</r25:scheduler_id>
+         <r25:scheduler_name>Elizabeth Sutton</r25:scheduler_name>
+         <r25:scheduler_address>milwaukee </r25:scheduler_address>
+         <r25:scheduler_email>emsutton@uwm.edu</r25:scheduler_email>
+         <r25:scheduler_phone>414-382-1718</r25:scheduler_phone>
+         <r25:scheduler_fax/>
+         <r25:instructor_id/>
+         <r25:instructor_name/>
+         <r25:instructor_address/>
+         <r25:instructor_email/>
+         <r25:instructor_phone/>
+         <r25:instructor_fax/>
+         <r25:reservation_comments/>
+      </r25:event>
+      <r25:last_mod_user>malkaul</r25:last_mod_user>
+      <r25:last_mod_dt>2020-05-05T18:16:58-05:00</r25:last_mod_dt>
+   </r25:space_reservation>
+</r25:space_reservations>

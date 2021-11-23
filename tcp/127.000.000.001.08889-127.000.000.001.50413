@@ -1,0 +1,41 @@
+HTTP/1.1 500 Internal Server Error
+Date: Fri, 05 Dec 2014 12:05:51 GMT
+Server: Apache/2.2.22 (Win32) mod_ssl/2.2.22 OpenSSL/0.9.8t
+Expires: Wed, 01 Jan 1997 12:00:00 GMT
+Cache-Control: private,no-store,no-cache,max-age=0
+Content-Length: 918
+X-Cnection: close
+Content-Type: text/html
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+	PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"DTD/xhtml1-strict.dtd">
+	
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="/shibboleth-sp/main.css" />
+	<title>opensaml&#58;&#58;BindingException</title>
+</head>
+
+<body>
+
+
+<h1>opensaml&#58;&#58;BindingException</h1>
+
+<p>The system encountered an error at Fri Dec 05 06&#58;05&#58;51 2014</p>
+
+<p>To report this problem, please contact the site administrator at
+<a href="mailto:root@localhost">root@localhost</a>.
+</p>
+
+<p>Please include the following message in any email:</p>
+<p class="error">opensaml&#58;&#58;BindingException at (https&#58;//roomscheduling.uwm.edu/Shibboleth.sso/SAML2/POST)</p>
+
+<p>Unable to decode base64 in POST binding message.</p>
+
+
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+#!/bin/bash
+echo ================ request 1 ================
+wget -S -O resp01.html --load-cookies=/dev/null   --save-cookies=cooks01.txt --keep-session-cookies --no-check-certificate https://roomscheduling.uwm.edu/25live/data/run/login.shibboleth?redirect=https://roomscheduling.uwm.edu/25live/index.html 2>resp01headers.txt
+
+
+echo ================ request 2 ================
+wget -S -O resp02.html --load-cookies=cooks01.txt --save-cookies=cooks02.txt --keep-session-cookies --no-check-certificate --post-data 'j_username=tomh&j_password=wd34faer!!www&s=Log+in' --max-redirect=0 https://idp.uwm.edu/idp/Authn/UserPassword
+
+echo ============== request 2.5 ===============
+wget -S -O resp025.html --load-cookies=cooks02.txt --save-cookies=cooks025.txt --keep-session-cookies --no-check-certificate 'https://idp.uwm.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1' > resp025headers.txt
+
+RelayState=`grep RelayState resp025.html | sed 's/^.*value="//' | sed 's/"\/>.*//' | sed 's/&#x3a;/%3A/g' | sed 's/+/%2B/g'`
+SAMLResponse=`grep SAMLResponse resp025.html | sed 's/^.*value="//' | sed 's/"\/>.*//' | sed 's/=/%3D/g;s/+/%2B/g'`
+
+echo ================ request 3 ================
+echo -n "RelayState=$RelayState&SAMLResponse=$SAMLResponse" > post03.txt
+echo "RelayState=$RelayState&SAMLResponse=$SAMLResponse" 
+
+wget -S -O resp03.html --user-agent "Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B334b Safari/531.21.10" \
+   --header "Host: roomscheduling.uwm.edu" \
+   --header 'Origin: https://idp.uwm.edu' \
+   --header 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' \
+   --header 'Accept-Encoding: gzip,deflate' \
+   --header 'Accept-Language: en-US,en;q=0.8' \
+   --header 'Cache-Control: no-cache' \
+   --header 'Content-Type: application/x-www-form-urlencoded' \
+   --referer 'https://idp.uwm.edu/idp/profile/SAML2/Redirect/SSO' \
+   --load-cookies=cooks025.txt --save-cookies=cooks03.txt --keep-session-cookies \
+   --no-check-certificate --post-file post03.txt 'https://roomscheduling.uwm.edu/Shibboleth.sso/SAML2/POST'
+
+wget -O rooms.xml --load-cookies=cooks03.txt --no-check-certificate 'https://roomscheduling.uwm.edu/25live/data/run/spaces.xml?ML_FLS=R&name=GLRF&scope=list'
+php readrooms.php
+#
+#
+
+
+#wget -O calendar.xml --load-cookies=cooks03.txt --no-check-certificate "https://roomscheduling.uwm.edu/25live/data/run/rm_reservations.xml?space_id=427&date_params=date_order%3A%20MDY%3B%20hour_inc%3A%201%3B%20minute_inc%3A%205%3B%20month_display%3A%20I%3B%20day_display%3A%20I%3B%20date_sep%3A%20S%3B%20time_display%3A%2012&otransform=https://25live.collegenet.com/hybridssl/v23.0/xslt/25live/s25-space-search/rm_rsrv_formatter.xsl&name_display=name&start_dt=20141201T000001&end_dt=20141231T235959&scope=extended&include=attributes+spaces+blackouts+text&office_start=0600&office_end=2200&calendarstart=20141201T000001&date_params=date_order%3A%20MDY%3B%20hour_inc%3A%201%3B%20minute_inc%3A%205%3B%20month_display%3A%20I%3B%20day_display%3A%20I%3B%20date_sep%3A%20S%3B%20time_display%3A%2012"
+
+
+
+
+
+
+
+

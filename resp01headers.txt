@@ -1,0 +1,51 @@
+--2015-08-24 15:20:01--  https://roomscheduling.uwm.edu/25live/data/run/login.shibboleth?redirect=https://roomscheduling.uwm.edu/25live/index.html
+Resolving roomscheduling.uwm.edu... 129.89.70.176
+Connecting to roomscheduling.uwm.edu|129.89.70.176|:443... connected.
+WARNING: cannot verify roomscheduling.uwm.edu's certificate, issued by `/C=US/ST=MI/L=Ann Arbor/O=Internet2/OU=InCommon/CN=InCommon RSA Server CA':
+  Unable to locally verify the issuer's authority.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 302 Found
+  Date: Mon, 24 Aug 2015 20:20:02 GMT
+  Expires: Wed, 01 Jan 1997 12:00:00 GMT
+  Cache-Control: private,no-store,no-cache,max-age=0
+  Location: https://idp.uwm.edu/idp/profile/SAML2/Redirect/SSO?SAMLRequest=hVLPT8IwFP5Xlt6hW4GJDVsy4SAJysKmBy%2BmdMU16drZ14n%2B9xaGiBdMenhJv%2Ff9ypsBa1RLs87VeiPeOwEu%2BGyUBnr8SFBnNTUMJFDNGgHUcVpkDytKhiFtrXGGG4WCDEBYJ42eGw1dI2wh7Ifk4mmzSlDtXAsUY2tMA7wWVaekfht2%2B2boZ1zUcrs1Srh6CGDwgZ3gfF2UKFh4O1KzA%2FEvjaza866fsXexk0qcFjeiklZwh4tijYLlIkGvVRUTFo1vo2g8mjJ%2BG48ifhOFu5iNYrKbTD0MoBNLDY5plyASRpNBOB2QcUlC6l9IXlCQn8LeSV15%2B9eb2fYgoPdlmQ%2F6MM%2FCwjGIB6B0duiXHoXtRePXadlPzSj9p1Q4lzrDF0q9bEsfPfVykRsl%2BVeQKWX2cyuYEwmKEE77lb9XkX4D&RelayState=ss%3Amem%3Ab05fec3d20f219769dbe9ac2b2035cf83b7fdb23e02997f47343736555f925e5
+  Content-Length: 788
+  Keep-Alive: timeout=5, max=100
+  Connection: Keep-Alive
+  Content-Type: text/html; charset=iso-8859-1
+Location: https://idp.uwm.edu/idp/profile/SAML2/Redirect/SSO?SAMLRequest=hVLPT8IwFP5Xlt6hW4GJDVsy4SAJysKmBy%2BmdMU16drZ14n%2B9xaGiBdMenhJv%2Ff9ypsBa1RLs87VeiPeOwEu%2BGyUBnr8SFBnNTUMJFDNGgHUcVpkDytKhiFtrXGGG4WCDEBYJ42eGw1dI2wh7Ifk4mmzSlDtXAsUY2tMA7wWVaekfht2%2B2boZ1zUcrs1Srh6CGDwgZ3gfF2UKFh4O1KzA%2FEvjaza866fsXexk0qcFjeiklZwh4tijYLlIkGvVRUTFo1vo2g8mjJ%2BG48ifhOFu5iNYrKbTD0MoBNLDY5plyASRpNBOB2QcUlC6l9IXlCQn8LeSV15%2B9eb2fYgoPdlmQ%2F6MM%2FCwjGIB6B0duiXHoXtRePXadlPzSj9p1Q4lzrDF0q9bEsfPfVykRsl%2BVeQKWX2cyuYEwmKEE77lb9XkX4D&RelayState=ss%3Amem%3Ab05fec3d20f219769dbe9ac2b2035cf83b7fdb23e02997f47343736555f925e5 [following]
+--2015-08-24 15:20:01--  https://idp.uwm.edu/idp/profile/SAML2/Redirect/SSO?SAMLRequest=hVLPT8IwFP5Xlt6hW4GJDVsy4SAJysKmBy%2BmdMU16drZ14n%2B9xaGiBdMenhJv%2Ff9ypsBa1RLs87VeiPeOwEu%2BGyUBnr8SFBnNTUMJFDNGgHUcVpkDytKhiFtrXGGG4WCDEBYJ42eGw1dI2wh7Ifk4mmzSlDtXAsUY2tMA7wWVaekfht2%2B2boZ1zUcrs1Srh6CGDwgZ3gfF2UKFh4O1KzA%2FEvjaza866fsXexk0qcFjeiklZwh4tijYLlIkGvVRUTFo1vo2g8mjJ%2BG48ifhOFu5iNYrKbTD0MoBNLDY5plyASRpNBOB2QcUlC6l9IXlCQn8LeSV15%2B9eb2fYgoPdlmQ%2F6MM%2FCwjGIB6B0duiXHoXtRePXadlPzSj9p1Q4lzrDF0q9bEsfPfVykRsl%2BVeQKWX2cyuYEwmKEE77lb9XkX4D&RelayState=ss%3Amem%3Ab05fec3d20f219769dbe9ac2b2035cf83b7fdb23e02997f47343736555f925e5
+Resolving idp.uwm.edu... 129.89.7.77
+Connecting to idp.uwm.edu|129.89.7.77|:443... connected.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 302 Found
+  Set-Cookie: JSESSIONID=1ss1979fq69za1ayjrf8da8iwf;Path=/idp;Secure
+  Expires: Thu, 01 Jan 1970 00:00:00 GMT
+  Pragma: no-cache
+  Cache-Control: no-cache
+  Cache-Control: no-store
+  Location: https://idp.uwm.edu/idp/profile/SAML2/Redirect/SSO;jsessionid=1ss1979fq69za1ayjrf8da8iwf?execution=e1s1
+  Content-Length: 0
+  Connection: keep-alive
+  Server: Jetty(9.2.5.v20141112)
+Location: https://idp.uwm.edu/idp/profile/SAML2/Redirect/SSO;jsessionid=1ss1979fq69za1ayjrf8da8iwf?execution=e1s1 [following]
+--2015-08-24 15:20:02--  https://idp.uwm.edu/idp/profile/SAML2/Redirect/SSO;jsessionid=1ss1979fq69za1ayjrf8da8iwf?execution=e1s1
+Reusing existing connection to idp.uwm.edu:443.
+HTTP request sent, awaiting response... 
+  HTTP/1.1 200 OK
+  Pragma: no-cache
+  Expires: Thu, 01 Jan 1970 00:00:00 GMT
+  Cache-Control: no-cache
+  Cache-Control: no-store
+  Content-Type: text/html;charset=utf-8
+  Content-Length: 6542
+  Connection: keep-alive
+  Server: Jetty(9.2.5.v20141112)
+  Vary: Accept-Encoding
+Length: 6542 (6.4K) [text/html]
+Saving to: `resp01.html'
+
+     0K ......                                                100%  139M=0s
+
+2015-08-24 15:20:02 (139 MB/s) - `resp01.html' saved [6542/6542]
+

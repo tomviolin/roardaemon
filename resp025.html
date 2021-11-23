@@ -1,0 +1,160 @@
+<!--[if lt IE 7]> <html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie" lang="en"> <![endif]-->
+<!--[if gt IE 9]> <html class="no-js ie"  lang="en"> <![endif]-->
+<html>
+  	<head>
+    	<meta charset="utf-8" />
+    	<title>Web Login Service</title>
+    	<link rel="stylesheet" type="text/css" href="/idp/css/idp.css"/>
+	<link rel="shortcut icon" href="/idp/images/favicon.ico">
+	<meta name="viewport" content="width=device-width" />
+
+
+  	</head>
+  	<body>
+    <!--
+    <div class="wrapper">
+      <div class="container">
+        <header>
+          <img src="/idp/images/dummylogo.png" alt="Replace or remove this logo"/>
+        </header>
+
+        <div class="content">
+          <div class="column one"> -->
+
+<!-- uwm branded block starts here -->
+
+      <div class="page">
+                <div class="outer">
+                        <div class="middle">
+                                <div class="inner">
+        <idpui:serviceDescription></idpui:serviceDescription>
+        <idpui:serviceInformationURL linkText="More Information" cssClass="class" cssId="id" cssStyle="style"/><br/>
+        <idpui:servicePrivacyURL linkText="Service Provider Privacy Policy"/>
+                                        <div class="content">
+                                                <div class="form">
+
+
+
+
+                                                <div class="uwmlogo">
+                                                        <a href="https://www4.uwm.edu/" target="_new"><span class="hide-me">UW-Milwaukee</span></a>
+                                                </div>
+
+
+                                                <div class="logo">
+                                                        <a href="https://www4.uwm.edu/iam/services/uwm_saml.cfm" target="_new">
+                                                        <span class="hide-me">1Login</span></a>
+                                                </div>
+
+
+<!-- uwm branded block ends here -->
+
+            <form action="/idp/profile/SAML2/Redirect/SSO?execution=e1s1" method="post">
+            
+              
+
+                            <!--
+              <section>
+                <label for="j_username">Username</label>
+                <input class="form-element form-field" name="j_username" type="text"
+                	value="">
+              </section>
+
+              <section>
+                <label for="j_password">Password</label>
+                <input class="form-element form-field" name="j_password" type="password" value="">
+              </section>
+
+              <section>
+                <input type="checkbox" name="donotcache" value="1" /> Don't Remember Login              </section>
+-->
+
+                                <fieldset>
+                                        <legend>Authenticate</legend>
+
+                                        <label for="j_username">ePantherID
+<br/><span class="noob"><a href="https://www4.uwm.edu/iam/services/what_is_epantherid.cfm" target="_new">What is my ePantherID?</span></a>
+</label>
+					<input class="input-text" name="j_username" type="text" id="j_username"
+		                        value="" tabindex="1">
+			                <label for="j_password">Password</label>
+			                <input class="input-text" name="j_password" type="password" value="" tabindex="2">
+					<div class="login">
+					<button class="input-btn" type="submit" name="_eventId_proceed" tabindex="3">Login</button>
+
+              <!--
+              <section>
+                <input id="_shib_idp_revokeConsent" type="checkbox" name="_shib_idp_revokeConsent" value="true"/>
+                Clear prior granting of permission for release of your information to this service.              </section>
+              -->
+              <!--
+              <section>
+                <button class="form-element form-button" type="submit" name="_eventId_proceed">Login</button>
+              </section> -->
+					<div class="help">
+                                                        <p>Need help?</p>
+                                                        Contact the UWM Help Desk <br/> (414) 229-4040</p><p> toll-free (877) 381-3459 <br/><a href="http://uwm.edu/requesthelp">uwm.edu/requesthelp</a></p><br/><br/>
+                                                </div>
+                                                <div class="clean"></div>
+                                        </div>
+
+
+                                </fieldset>
+            </form>
+
+
+
+                                                </div>
+
+<div class="policy">
+                                                                <p>Subject to the UWM <a href="https://www4.uwm.edu/secu/facdocs/2480.pdf" target="_new">Acceptable Use Policy</a></p>
+</div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+<!--
+
+			<!-- 
+              //
+              //    SP Description & Logo (optional)
+              //    These idpui lines will display added information (if available
+              //    in the metadata) about the Service Provider (SP) that requested
+              //    authentication. These idpui lines are "active" in this example
+              //    (not commented out) -- this extra SP info will be displayed.
+              //    Remove or comment out these lines to stop the display of the
+              //    added SP information.
+              //
+            -->
+                                                
+          </div>
+          <div class="column two">
+            <ul class="list list-help">
+              <li class="list-help-item"><a href="#"><span class="item-marker">&rsaquo;</span> Forgot your password?</a></li>
+              <li class="list-help-item"><a href="#"><span class="item-marker">&rsaquo;</span> Need Help?</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container container-footer">
+          <p class="footer-text">Insert your footer text here.</p>
+        </div>
+      </footer>
+    </div>
+    -->
+<script type="text/javascript">
+ var login = document.getElementById("j_username");
+ if (login.value == "") { login.focus(); }
+ else{
+        var passwd=document.getElementById("j_password");
+        passwd.focus();
+     }
+</script>
+ 	</body>
+</html>

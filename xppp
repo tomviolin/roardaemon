@@ -1,0 +1,18 @@
+PHP Notice:  DOMDocument::loadHTML(): Namespace prefix idpui is not defined in Entity, line: 32 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Warning:  DOMDocument::loadHTML(): Tag idpui:servicedescription invalid in Entity, line: 32 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Notice:  DOMDocument::loadHTML(): Namespace prefix idpui is not defined in Entity, line: 33 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Warning:  DOMDocument::loadHTML(): Tag idpui:serviceinformationurl invalid in Entity, line: 33 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Notice:  DOMDocument::loadHTML(): Namespace prefix idpui is not defined in Entity, line: 34 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Warning:  DOMDocument::loadHTML(): Tag idpui:serviceprivacyurl invalid in Entity, line: 34 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Warning:  DOMDocument::loadHTML(): Unexpected end tag : a in Entity, line: 50 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Warning:  DOMDocument::loadHTML(): Tag section invalid in Entity, line: 70 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Warning:  DOMDocument::loadHTML(): Unexpected end tag : a in Entity, line: 95 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Warning:  DOMDocument::loadHTML(): Unexpected end tag : p in Entity, line: 115 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Warning:  DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 153 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Warning:  DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 160 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Warning:  DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 161 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Warning:  DOMDocument::loadHTML(): Tag footer invalid in Entity, line: 163 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Warning:  DOMDocument::loadHTML(): Unexpected end tag : div in Entity, line: 168 in /media/raid0/home/tomh/roar/readrooms.php on line 60
+PHP Notice:  Undefined index: RelayState in /media/raid0/home/tomh/roar/readrooms.php on line 113
+PHP Notice:  Undefined index: SAMLResponse in /media/raid0/home/tomh/roar/readrooms.php on line 113
+PHP Fatal error:  Call to a member function CreateCalendar() on a non-object in /media/raid0/home/tomh/roar/readrooms.php on line 256
