@@ -1,0 +1,7 @@
+
+builddockerimage:
+	docker build -t roardaemon .
+
+rundockerimage:
+	docker run -it --rm -v /home/tomh/stuff:/calendars roardaemon
+
