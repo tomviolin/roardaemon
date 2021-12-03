@@ -1,0 +1,4 @@
+
+# m h  dom mon dow   command
+
+*/15 * * * * /usr/local/bin/php /opt/roardaemon/readrooms.php

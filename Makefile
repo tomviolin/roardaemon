@@ -1,7 +1,11 @@
 
-builddockerimage:
+all: build run
+
+build:
 	docker build -t roardaemon .
 
-rundockerimage:
-	docker run -it --rm -v /tmp/roarcalendars:/calendars roardaemon
+run:
+	docker kill readrooms || echo ""
+	docker rm readrooms || echo ""
+	docker run -d --name readrooms --restart always -v /tmp/roarcalendars:/calendars roardaemon
 

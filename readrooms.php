@@ -1,7 +1,7 @@
-#!/usr/bin/php
+#!/usr/bin/env php
 <?php 
 
-
+chdir("/opt/roardaemon");
 
 system("wget -O rooms2.xml --user tomh --password 25LiveSFSPublisher --no-check-certificate 'https://webservices.collegenet.com/r25ws/wrd/uwm/run/spaces.xml?ML_FLS=R&name=GLRF&scope=list'");
 
@@ -269,3 +269,4 @@ for ($months = 0; $months < 1; ++$months) {
 }
 
 write_global_calendar("calendars/GLRF_ALL.ics");
+
