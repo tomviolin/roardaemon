@@ -100,7 +100,7 @@ function convert_to_global_calendar($calxmlstring, $calname) {
 		}
 		echo "creating event; ";
 		$vevent = & $allv->newComponent( "vevent" );                  // create an event calendar component
-		$vevent->setProperty( "UID", $reservation->reservation_id);
+		$vevent->setProperty( "UID", $reservation->reservation_id . "-" . $reservation->spaces->space_name);
 		$vevent->setProperty( "DTSTAMP", "20210101T010101Z");
 		$vevent->setProperty( "dtstart", $reservation->reservation_start_dt);
 		$vevent->setProperty( "dtend",   $reservation->reservation_end_dt);
