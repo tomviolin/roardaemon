@@ -3,8 +3,12 @@ FROM php:7.4-cli
 MAINTAINER Tom Hansen "tomh@uwm.edu"
 
 # update packages needed
+RUN apt-get install --fix-missing
 RUN apt-get update
+RUN apt-get upgrade -y
+RUN apt-get install --fix-missing
 RUN apt-get -y install wget cron
+RUN apt-get install --fix-missing
 
 # copy local content to its container home
 COPY . /opt/roardaemon
