@@ -2,19 +2,28 @@ FROM php:7.4-cli
 
 MAINTAINER Tom Hansen "tomh@uwm.edu"
 
-RUN ln -fs /usr/share/zoneinfo/America/Chicago /etc/localtime
-RUN dpkg-reconfigure --frontend noninteractive tzdata
-COPY ./mkphptz.sh .
-RUN ./mkphptz.sh
-
+# update packages needed
+RUN apt-get install --fix-missing
 RUN apt-get update
+RUN apt-get upgrade -y
+RUN apt-get install --fix-missing
 RUN apt-get -y install wget cron
+RUN apt-get install --fix-missing
 
+# copy local content to its container home
 COPY . /opt/roardaemon
 
-RUN crontab < /opt/roardaemon/crontab
+# fix timezone issue
+RUN ln -fs /usr/share/zoneinfo/America/Chicago /etc/localtime
+RUN dpkg-reconfigure --frontend noninteractive tzdata
+RUN /opt/roardaemon/mkphptz.sh
 
+# go home
 WORKDIR /opt/roardaemon
 
+# set crontab
+RUN crontab < /opt/roardaemon/crontab
+
+# launch container by running cron in foreground
 CMD cron -f
 
