@@ -13,15 +13,15 @@ $xml = simplexml_load_file("rooms2.xml", "SimpleXMLElement",0,"r25",true);
 $nitems = count($xml->item);
 $items = $xml->item;
 
-	function sort2dtarray($sort) {
-		return 
-			array(  "year"  => substr($sort,0,4)+0,
-				"month" => substr($sort,4,2)+0,
-				"day"   => substr($sort,6,2)+0,
-				"hour"  => substr($sort,8,2)+0,
-				"min"   => substr($sort,10,2)+0,
-				"sec"   => substr($sort,12,2)+0);
-	}
+function sort2dtarray($sort) {
+	return 
+		array(  "year"  => substr($sort,0,4)+0,
+			"month" => substr($sort,4,2)+0,
+			"day"   => substr($sort,6,2)+0,
+			"hour"  => substr($sort,8,2)+0,
+			"min"   => substr($sort,10,2)+0,
+			"sec"   => substr($sort,12,2)+0);
+}
 
 $allv = NULL;
 
@@ -125,6 +125,7 @@ function convert_to_global_calendar($calxmlstring, $calname) {
 
 function write_global_calendar($filename) {
 	global $allv;
+	file_put_contents($filename.".dump", print_r($allv, TRUE));
 	file_put_contents($filename."-tmp", $allv->CreateCalendar());
 	rename($filename."-tmp", $filename);
 }
