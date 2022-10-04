@@ -1,9 +1,13 @@
-#!/usr/bin/env php
+#!/usr/local/bin/php
 <?php 
 
-chdir("/opt/roardaemon");
+if ($GLOBALS['argv'][1] === "check" && file_exists("/calendars/GLRF_ALL.ics")) {
+	exit(1);
+}
 
-system("wget -O rooms2.xml --user tomh --password 25LiveSFSPublisher --no-check-certificate 'https://webservices.collegenet.com/r25ws/wrd/uwm/run/spaces.xml?ML_FLS=R&name=GLRF&scope=list'");
+chdir("/opt/roardaemon");
+$pass = getenv("LIVEPASS");
+system("wget -O rooms2.xml --user tomh --password $pass --no-check-certificate 'https://webservices.collegenet.com/r25ws/wrd/uwm/run/spaces.xml?ML_FLS=R&name=GLRF&scope=list'");
 
 
 

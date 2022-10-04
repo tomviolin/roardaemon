@@ -2,6 +2,7 @@
 all: build run
 
 build:
+	cp ~/secrets/secrets.sh .
 	docker build -t roardaemon .
 
 run:	stop start

@@ -1,6 +1,7 @@
 #!/bin/bash
-
-/bin/sleep 10
+if [ \! -f /calendars/sendupdates ]; then
+	exit 0
+fi
 
 for f in /calendars/GLRF_ALL.ics; do
 	SRC=$f

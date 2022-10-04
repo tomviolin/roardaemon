@@ -1,6 +1,8 @@
 
 # m h  dom mon dow   command
 
-@reboot      /usr/local/bin/php /opt/roardaemon/readrooms.php ; /opt/roardaemon/sendupdate.sh
-*/15 * * * * /usr/local/bin/php /opt/roardaemon/readrooms.php ; /opt/roardaemon/sendupdate.sh
+@reboot       /opt/roardaemon/cronjob.sh
+*/15 * * * *  /opt/roardaemon/cronjob.sh
+*    * * * *  /opt/roardaemon/cronjob.sh check
+
 
