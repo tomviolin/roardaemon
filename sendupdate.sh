@@ -1,4 +1,7 @@
 #!/bin/bash
+if [ \! -f /calendars/sendupdates ]; then
+	exit 0
+fi
 /usr/bin/sleep 30
 
 for f in /calendars/GLRF_*.ics; do

@@ -3,4 +3,6 @@
 
 @reboot      /usr/local/bin/php /opt/roardaemon/readrooms.php ; /opt/roardaemon/sendupdate.sh
 */15 * * * * /usr/local/bin/php /opt/roardaemon/readrooms.php ; /opt/roardaemon/sendupdate.sh
+* * * * * /usr/local/bin/php /opt/roardaemon/readrooms.php check; /opt/roardaemon/sendupdate.sh
+
 
