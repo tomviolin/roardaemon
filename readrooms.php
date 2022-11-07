@@ -105,7 +105,9 @@ function convert_to_global_calendar($calxmlstring, $calname) {
 		echo "creating event; ";
 		$vevent = & $allv->newComponent( "vevent" );                  // create an event calendar component
 		$vevent->setProperty( "UID", $reservation->reservation_id . "-" . $reservation->spaces->space_name);
-		$vevent->setProperty( "DTSTAMP", "20210101T010101Z");
+		#$vevent->setProperty( "DTSTAMP", "20210101T010101Z");
+		$dtstamp = gmdate("Ymd\\THis\\Z");
+		$vevent->setProperty( "DTSTAMP", $dtstamp); #"20210101T010101Z");
 		$vevent->setProperty( "dtstart", $reservation->reservation_start_dt);
 		$vevent->setProperty( "dtend",   $reservation->reservation_end_dt);
 		$vevent->setProperty( "LOCATION", $reservation->spaces->space_name );       // property name - case independent
@@ -117,8 +119,8 @@ function convert_to_global_calendar($calxmlstring, $calname) {
 		if ($reservation->space_instruction_id > 0) {
 			$description .= "\\n<b>Space Instructions:</b>\\n" . $reservation->space_instructions;
 		}
-		$vevent->setProperty( "description", $description );
-		$vevent->setProperty( "comment", $reservation->event->event_name . " " .$reservation->event->event_type_name  );
+		$vevent->setProperty( "description", $description . " [". date("m/d H:i")."]" );
+		$vevent->setProperty( "comment", $reservation->event->event_name . " " .$reservation->event->event_type_name . " " . $dtstamp );
 		$vevent->setProperty( "attendee", "" );
 
 		$previousvevent = $vevent;
@@ -209,7 +211,9 @@ function convert_calendar($calxmlstring, $filename, $calname) {
 		echo "creating event; ";
 		$vevent = & $v->newComponent( "vevent" );                  // create an event calendar component
 		$vevent->setProperty( "UID", $reservation->reservation_id);
-		$vevent->setProperty( "DTSTAMP", "20210101T010101Z");
+		#$vevent->setProperty( "DTSTAMP", "20210101T010101Z");
+		$dtstamp = gmdate("Ymd\\THis\\Z");
+		$vevent->setProperty( "DTSTAMP", $dtstamp); #"20210101T010101Z");
 		$vevent->setProperty( "dtstart", $reservation->reservation_start_dt);
 		$vevent->setProperty( "dtend",   $reservation->reservation_end_dt);
 		$vevent->setProperty( "LOCATION", $reservation->spaces->space_name );       // property name - case independent
@@ -218,10 +222,10 @@ function convert_calendar($calxmlstring, $filename, $calname) {
 		if ($reservation->space_instruction_id > 0) {
 			$description .= "\\nSpace Instructions:\\n" . $reservation->space_instructions;
 		}
-		$vevent->setProperty( "description", $description );
-		$vevent->setProperty( "comment", $reservation->event->event_name . " " .$reservation->event->event_type_name  );
+		//$vevent->setProperty( "description", $description );
+		$vevent->setProperty( "description", $description . " [". date("m/d H:i")."]" );
+		$vevent->setProperty( "comment", $reservation->event->event_name . " " .$reservation->event->event_type_name . " " . $dtstamp );
 		$vevent->setProperty( "attendee", "" );
-
 
 		$previousvevent = $vevent;
 		$previoushash =  $eventhash;
