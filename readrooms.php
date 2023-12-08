@@ -2,6 +2,17 @@
 <?php 
 // #!/usr/local/bin/php
 
+/*
+ * readrooms.php
+ *
+ * Author: Tom Hansen <tomh@uwm.edu>
+ * Date:   12/07/2023
+ *
+ * Reads the room reservations for all reservable rooms in ROAR (powered
+ * by CollegeNet Live) and outputs them in iCal format.
+ *
+ */
+
 if ($GLOBALS['argv'][1] === "check" && file_exists("/calendars/GLRF_ALL.ics")) {
 	exit(1);
 }
@@ -18,6 +29,11 @@ $xml = simplexml_load_file("rooms2.xml", "SimpleXMLElement",0,"r25",true);
 $nitems = count($xml->item);
 $items = $xml->item;
 
+
+/*
+ * converts sort key to a date array.
+ */
+
 function sort2dtarray($sort) {
 	return 
 		array(  "year"  => substr($sort,0,4)+0,
@@ -30,16 +46,23 @@ function sort2dtarray($sort) {
 
 $allv = NULL;
 
+
+/*
+ * converts the passed calendar XML formatted string to iCal format as a "global" calendar
+ */
 function convert_to_global_calendar($calxmlstring, $calname) {
 	global $allv;
+	// eliminate the CollegeNet "r25:" prefix to simplify the coding that follows.
 	$calxml = preg_replace("/<r25:/","<", $calxmlstring);
 	$calxml = preg_replace("/<\/r25:/","</", $calxml);
+	
+	// loads the CollegeNet XML format into PHP SimpleXML object.
 	$calx = simplexml_load_string($calxml, "SimpleXMLElement",0); #,"r25",true);
 
 	//print_r ($calx);
 
+	// load timezone
 	$tz = date_default_timezone_get();
-
 
 	$config = array( "unique_id" => "freshwater.uwm.edu",           // set Your unique id, required if any component UID is missing
 			 "TZID"      => $tz );                     // opt. set "calendar" timezone
