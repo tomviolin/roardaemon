@@ -32,5 +32,5 @@ WORKDIR /opt/roardaemon
 RUN crontab < /opt/roardaemon/crontab
 
 # launch container by running cron in foreground
-CMD cron -f
+CMD [ "cron" ,  "-f" ]
 

@@ -1,5 +1,6 @@
-#!/usr/local/bin/php
+#!/usr/bin/env php
 <?php 
+// #!/usr/local/bin/php
 
 if ($GLOBALS['argv'][1] === "check" && file_exists("/calendars/GLRF_ALL.ics")) {
 	exit(1);
@@ -57,7 +58,7 @@ function convert_to_global_calendar($calxmlstring, $calname) {
 
 
 
-	//print_r($calx);
+	print_r($calx);
 	$roomno = preg_replace('/GLRF /','',$calname);
 	$previousvevent = 0;
 	$previoushash = "";
@@ -119,6 +120,13 @@ function convert_to_global_calendar($calxmlstring, $calname) {
 		if ($reservation->space_instruction_id > 0) {
 			$description .= "\\n<b>Space Instructions:</b>\\n" . $reservation->space_instructions;
 		}
+		if ($reservation->requestor_name != "") {
+			$description .= "\\nRequestor:\\n" . $reservation->requestor_name . " " .$reservation->requestor_email . " " . $reservation->requestor_phone;
+		}
+		if ($reservation->scheduler_name != "") {
+			$description .= "\\nScheduler:\\n" . $reservation->scheduler_name . " " .$reservation->scheduler_email . " " . $reservation->scheduler_phone;
+		}
+
 		$vevent->setProperty( "description", $description . " [". date("m/d H:i")."]" );
 		$vevent->setProperty( "comment", $reservation->event->event_name . " " .$reservation->event->event_type_name . " " . $dtstamp );
 		$vevent->setProperty( "attendee", "" );
@@ -222,6 +230,13 @@ function convert_calendar($calxmlstring, $filename, $calname) {
 		if ($reservation->space_instruction_id > 0) {
 			$description .= "\\nSpace Instructions:\\n" . $reservation->space_instructions;
 		}
+		if ($reservation->requestor_name != "") {
+			$description .= "\\nRequestor:\\n" . $reservation->requestor_name . " " .$reservation->requestor_email . " " . $reservation->requestor_phone;
+		}
+		if ($reservation->scheduler_name != "") {
+			$description .= "\\nScheduler:\\n" . $reservation->scheduler_name . " " .$reservation->scheduler_email . " " . $reservation->scheduler_phone;
+		}
+
 		//$vevent->setProperty( "description", $description );
 		$vevent->setProperty( "description", $description . " [". date("m/d H:i")."]" );
 		$vevent->setProperty( "comment", $reservation->event->event_name . " " .$reservation->event->event_type_name . " " . $dtstamp );
